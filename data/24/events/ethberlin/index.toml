@@ -29,7 +29,7 @@ org = "Department of Decentralization"
 dri = "q9f"
 
 # A point of contact (responsible person)
-poc = "Afri Schoedon"
+poc = "https://dod.ngo"
 
 # the start date of the event
 date = "2024-05-24"
