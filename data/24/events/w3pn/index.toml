@@ -18,7 +18,7 @@ org = "Web3Privacy now"
 dri = "burningtree"
 
 # A point of contact (responsible person)
-poc = "https://matrix.to/#/#web3privacy:matrix.org"
+poc = "https://matrix.to/#/%23web3privacy:matrix.org"
 
 # the start date of the event
 date = "2024-05-22"
