@@ -2,13 +2,13 @@
 
 [![Test, build, deploy](https://github.com/blockchainweek/data/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/blockchainweek/data/actions/workflows/deploy.yml)
 
-A data-first decentralized conference-website developed by
+A data-first decentralized conference website developed by
 [UTXO Foundation](https://utxo.foundation/) for Prague.
 
-We are using this GitHub repository to coordinate event listings for **Berlin**.
+We use this GitHub repository to coordinate event listings for **Berlin**.
 
 - 💽 Data: [duplicity6-sulfur-objet0-air1.protocol.berlin](https://duplicity6-sulfur-objet0-air1.protocol.berlin)
-- 🕵️ Explore: [outright6-sear-8gusto-atrium.protocol.berlin](https://outright6-sear-8gusto-atrium.protocol.berlin)
+- 🕵️ Explore: [blockchainweek.berlin](https://blockchainweek.berlin)
 
 You can use JSON Hero to view the data:
 [`/24/index.json` @ JSON Hero](https://jsonhero.io/new?url=https://duplicity6-sulfur-objet0-air1.protocol.berlin/24/index.json)
