@@ -22,7 +22,7 @@ export class DeConfEngine {
     this.outputDir = this.options.outputDir || "./dist";
     this.publicUrl = this.options.publicUrl || "https://duplicity6-sulfur-objet0-air1.protocol.berlin";
     this.exploreUrl = this.options.exploreUrl ||
-      "https://outright6-sear-8gusto-atrium.protocol.berlin";
+      "https://blockchainweek.berlin";
     this.githubUrl = this.options.githubUrl ||
       "https://github.com/blockchainweek/data/tree/main/data";
 
