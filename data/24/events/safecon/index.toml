@@ -113,10 +113,10 @@ web = "https://conf.safe.global/"
 twitter = "https://twitter.com/safe"
 
 # public matrix channel
-# matrix = "n/a"
+# matrix = ""
 
 # public telegram group
-# telegram = "n/a"
+# telegram = ""
 
 # docs
 #docs = "https://docs.safe.global/home/what-is-safe"

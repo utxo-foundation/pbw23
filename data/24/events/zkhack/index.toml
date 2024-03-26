@@ -117,7 +117,7 @@ web = "https://lu.ma/zk-hack-meetup-berlin"
 twitter = "https://twitter.com/__zkhack__"
 
 # public matrix channel
-matrix = ""
+# matrix = ""
 
 # public telegram group
 telegram = "https://t.me/+TORo7aknkYNLHmCM"

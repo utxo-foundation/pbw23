@@ -5,7 +5,7 @@ name = "DEPIN DAY BERLIN"
 shortname = "DEPIN DAY"
 
 # type of the event
-types = "conference"
+types = ["conference"]
 
 # status of the event
 status = "published"
@@ -36,7 +36,7 @@ times = "12:00-18:00"
 venueName = "TBA"
 
 # link to the venue on google maps
-venueUrl = "TBA"
+# venueUrl = ""
 
 # the event venue address
 venueAddress = "TBA"
@@ -96,13 +96,13 @@ status = "available"
 twitter = "https://twitter.com/depinday"
 
 # public matrix channel
-# matrix = "NA"
+# matrix = ""
 
 # public telegram group
-# telegram = "NA"
+# telegram = ""
 
 # docs
-# docs = "NA"
+# docs = ""
 
 # discord
-# discord = "NA"
+# discord = ""

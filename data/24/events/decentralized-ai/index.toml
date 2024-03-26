@@ -73,7 +73,7 @@ description = """
 Gathering new internet founders, researchers, builders and VCs in Decentralized AI for a main DeAI summit during Berlin Blockchain Week ahead of ETHBerlin. Application based event.
 """
 
-[cfp]
+# [cfp]
 # link to call for particioation
 # link = "https://newinternet.cc"
 
@@ -110,7 +110,7 @@ web = "https://newinternet.cc"
 twitter = "https://twitter.com/newforum_nco"
 
 # public matrix channel
-# matrix =
+# matrix = ""
 
 # public telegram group
 telegram = "https://t.me/newfound8ion"
@@ -119,4 +119,4 @@ telegram = "https://t.me/newfound8ion"
 docs = "https://developer.newcoin.org"
 
 # discord
-# discord =
+# discord = ""
