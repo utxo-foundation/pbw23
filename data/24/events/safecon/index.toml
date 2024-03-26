@@ -38,7 +38,7 @@ date = "2024-05-23"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00am-1:00am"
+times = "09:00-24:00"
 
 # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
 venues = ["spindler"]
