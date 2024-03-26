@@ -1,5 +1,5 @@
 # the name of your event
-name = "BREW"
+name = "BREW Web3 Berlin"
 
 # shortest possible name (without year)
 shortname = "BREW"
@@ -41,16 +41,16 @@ days = 1
 times = "10:00-18:00"
 
 # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
-# venues = ["gabriel-loci"]
+venues = ["mitosis"]
 
 # the event venue name
-venueName = "Mitosis LAB"
+#venueName = "Mitosis LAB"
 
 # link to the venue on google maps
-venueUrl = "https://maps.app.goo.gl/WRZ2J8ZDJcmkqb9LA"
+#venueUrl = "https://maps.app.goo.gl/WRZ2J8ZDJcmkqb9LA"
 
 # the event venue address
-venueAddress = "Sonnenallee 67, 12045 Berlin"
+#venueAddress = "Sonnenallee 67, 12045 Berlin"
 
 # the languages in which the event will take place (you can choose more)
 languages = ["english"]
@@ -72,12 +72,13 @@ logo = "logo.png"
 # a description of the event.
 description = """
 BREW is a one-day, protocol-agnostic conference during the Berlin Blockchain Week, designed for thinkers and tinkerers across the Web3 ecosystem.
+
 BREW offers a crucial platform for those eager to shape the future of Web 3, offering avenues for knowledge exchange, forging valuable connections and connecting talent with matching projects and jobs.
 """
 
 [cfp]
 # link to call for particioation
-link = "https://tinyurl.com/brewberlinsponsorship"
+# link = "https://tinyurl.com/brewberlinsponsorship"
 link = "https://tinyurl.com/brewberlinspeak"
 
 [registration]
@@ -92,7 +93,7 @@ type = "tickets"
 price = "TBD"
 
 # link to the registration or ticket purchase page
-link = "https://www.brewberlin.xyz/"
+# link = "https://www.brewberlin.xyz/"
 
 # custom action button label
 #button = "Join BREW!"
@@ -113,7 +114,7 @@ web = "https://www.brewberlin.xyz/"
 twitter = "https://twitter.com/brewconference"
 
 # public telegram group
-telegram = ""
+# telegram = ""
 
 # docs
 #docs = ""
