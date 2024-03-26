@@ -36,7 +36,7 @@ venues = ["cbase"]
 languages = ["english"]
 
 # the max number of attendees of the event
-attendees = 300
+attendees = 100
 
 # tags for the event, will show up as labels.
 tags = ["lunarpunk", "privacy", "censorship resistance", "cypherphunk"]
