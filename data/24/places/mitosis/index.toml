@@ -1,4 +1,4 @@
-name = "Mitosis LAB 1"
+name = "Mitosis LAB"
 eventTypes = ["conference", "meetup"]
 capacity = 250
 address = "Sonnenallee 67, 12045 Berlin"
@@ -9,4 +9,4 @@ Open Loft for Business Events in Berlin-Neukölln
 photo = "logo.png"
 
 [links]
-web = "https://mitosis.co/en/lab-1-en/"
+web = "https://mitosis.co/en/the-venue-for-your-meeting-in-berlin/"
