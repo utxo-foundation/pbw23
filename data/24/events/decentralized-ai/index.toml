@@ -66,7 +66,7 @@ chains = []
 tags = ["decentralizedai", "DeAI", "ZkML"]
 
 # A logo attachment
-logo = "logo.png"
+logo = "logo.jpg"
 
 # a description of the event.
 description = """
@@ -104,7 +104,7 @@ status = "available"
 [links]
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-web = "https://newinternet.cc"
+web = "https://newcoin.org/newinternet"
 
 # twitter account
 twitter = "https://twitter.com/newforum_nco"
