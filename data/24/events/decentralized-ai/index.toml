@@ -55,7 +55,7 @@ venues = ["factory"]
 languages = ["english"]
 
 # the max number of attendees of the event
-attendees = 600
+attendees = 250
 
 # blockchains that the event deals with
 # if it is an interchain event, then leave blank
