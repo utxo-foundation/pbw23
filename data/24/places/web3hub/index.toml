@@ -9,7 +9,7 @@ name = "w3.hub"
 #   * expo
 #   * party
 #   * other
-eventTypes = ["conference", "hackathon, meetup, expo"]
+eventTypes = ["conference", "hackathon", "meetup", "expo"]
 
 # max number of attendees
 capacity = 200
