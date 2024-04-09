@@ -1,0 +1,132 @@
+# the name of your event
+name = "First in the World Web3 Drone Corridor Launch"
+
+# shortest possible name (without year)
+shortname = "Web3 Drone Launch"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["other"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Staex"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "SantaBerlin"
+
+# A point of contact (responsible person)
+poc = "Paksy Plackis-Cheng"
+
+# the start date of the event
+date = "2024-05-21"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "15:00-16:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = "Im Marienpark, Berlin, https://marienpark.berlin/"
+
+# the event venue name
+venueName = "Im Marienpark"
+
+# link to the venue on google maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Im+Marienpark+12107+Berlin"
+
+# the event venue address
+venueAddress = "Im Marienpark, 12107 Berlin Tempelhof-Schöneberg"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 100
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["lisk"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["machine-to-machine", "machine payments", "Web2 co using Web3 tools", "drones"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Invitation to the official Web3 Drone Corridor launch in Berlin
+
+An Actual Industry Usage of Web3 Tools
+
+Join us for the World's First Web3 Drone Corridor launch on May 21st, 2024. Don't miss out on German best-of-breed technologies featuring reliable and secure data capturing, communication, and processing incl. payment. Secure your spot and be an active participant purchasing your photo (data) realtime that will be captured by a drone utilizing machine-to-machine payments.
+
+Here's what to expect:
+
+When: May 21st, 2024, at 15:00.
+If you are press or a Staex partner, your event starts at 14:00.
+"""
+
+[cfp]
+# link to call for particioation
+link = "https://staex.io/web3-drone-corridor"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "FREE!"
+
+# link to the registration or ticket purchase page
+#link = "https://staex.io/web3-drone-corridor-announcement"
+
+# custom action button label
+#button = "Register now!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://staex.io/web3-drone-corridor-announcement"
+
+# twitter account
+twitter = "https://twitter.com/staex_io"
+
+# public matrix channel
+#matrix = ""
+
+# public telegram group
+#telegram = ""
+
+# docs
+#docs = ""
+
+# discord
+#discord = ""
