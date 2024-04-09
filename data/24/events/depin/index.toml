@@ -11,7 +11,7 @@ types = ["conference"]
 status = "published"
 
 # the name of the group organizing the event
-org = "Fluence"
+org = "Fluence & 1kx"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with #bbw24 organizers)
@@ -21,7 +21,7 @@ dri = "dearnadia"
 poc = "Nadia Venzhina"
 
 # the start date of the event
-date = "2024-05-24"
+date = "2024-05-22"
 
 # how many days the event lasts (1 - N)
 days = 1
