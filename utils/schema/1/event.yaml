@@ -100,6 +100,7 @@ properties:
         - polkadot
         - monero
         - cardano
+        - lisk
         - other
   difficulty:
     type: string
