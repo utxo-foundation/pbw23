@@ -72,7 +72,6 @@ logo = "logo.png"
 # a description of the event.
 description = """
 BREW is a one-day, protocol-agnostic conference during the Berlin Blockchain Week, designed for thinkers and tinkerers across the Web3 ecosystem.
-
 BREW offers a crucial platform for those eager to shape the future of Web 3, offering avenues for knowledge exchange, forging valuable connections and connecting talent with matching projects and jobs.
 """
 
@@ -90,10 +89,10 @@ link = "https://tinyurl.com/brewberlinspeak"
 type = "tickets"
 
 # price of the ticket
-price = "TBD"
+price = "Free"
 
 # link to the registration or ticket purchase page
-# link = "https://www.brewberlin.xyz/"
+link = "https://lu.ma/brew"
 
 # custom action button label
 #button = "Join BREW!"
