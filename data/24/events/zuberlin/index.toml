@@ -1,0 +1,123 @@
+# the name of your event
+name = "ZuBerlin"
+
+# shortest possible name (without year)
+shortname = "ZuBerlin"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["hackathon", "other"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "ephema labs"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "cshg"
+
+# A point of contact (responsible person)
+poc = "mailto:contact@zuberlin.city"
+
+# the start date of the event
+date = "2024-06-08"
+
+# how many days the event lasts (1 - N)
+days = 14
+
+# the event times (shows up in the event card)
+times = "09:00-22:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "MOOS Space"
+
+# link to the venue on google maps
+venueUrl = "https://goo.gl/maps/example"
+
+# the event venue address
+venueAddress = "Moosdorfstraße 7-9, 12435 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 120
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum", "cosmos", "interchain"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["mechanismdesign", "decentralizedAI", "neuroscience", "biotech"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+ZuBerlin is an immersive two week residency to enable cross-pollination at the cutting edge of technology. It closes the gap between a hacker house (super small, long time period) and a conference, and enables more depth, personal connection and exchange through co-living and not being constrained by time as much as with a usual conference. This combined with bringing together different fields of technological innovation and coordination (Distributed Systems, Cryptography, AI, Neuroscience, etc.) creates a unique environment where unforeseen novel ideas and concepts can emerge and flourish.
+"""
+
+[cfp]
+# link to call for participation
+link = "https://link.zuberlin.city/partnerships-form"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "tickets"
+
+# price of the ticket
+price = "tbd"
+
+# link to the registration or ticket purchase page
+link = "https://join.zuberlin.city/presignup"
+
+# custom action button label
+button = "Sign up!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://zuberlin.city"
+
+# twitter account
+twitter = "https://twitter.com/ZuBerlinCity"
+
+# public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# public telegram group
+telegram = "https://t.me/zuberlin"
+
+# docs
+# docs = "https://example.org/docs"
+
+# discord
+# discord = ""
