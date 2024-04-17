@@ -1,0 +1,113 @@
+# the name of your event
+name = "Finoa's Digital Asset Summit"
+
+# shortest possible name (without year)
+shortname = "Finoa's Digital Asset Summit"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["conference"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Finoa"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "marius-smith"
+
+# A point of contact (responsible person)
+poc = "Marius Smith"
+
+# the start date of the event
+date = "2024-05-23"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "13:00-19:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["fiona"]
+
+# the event venue name
+venueName = "Finoa Headquarters"
+
+# link to the venue on google maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Saarbruecker+Stra%C3%9Fe+37+10405+Berlin"
+
+# the event venue address
+venueAddress = "Saarbrücker Str. 37, 10405 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 200
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum", "polkadot", "cosmos"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["solarpunk", "cryptography"]
+
+# A logo attachment
+logo = "logo.jpg"
+
+# a description of the event.
+description = """
+Join us for Finoa's Digital Asset Summit, a gathering of industry leaders, innovators, and Berlin friends to explore the latest trends and developments shaping the digital asset space. Our event features insightful panel discussions, engaging talks, and interactions with experts from all areas of the digital asset industry.
+
+After the conversations, enjoy a relaxed networking with your industry peers with drinks at the Finoa offices. ​This affair is reserved for the discerning few, with space at a premium. Please RSVP at your earliest convenience; each registration will be considered. Please note, an exclusive invitation is required for admittance, and regrettably, we are unable to accommodate additional guests.
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/m0miep2i"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "Free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/wgetm0miep2i"
+
+# custom action button label
+#button = "Sign up!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# web = "https://lu.ma/m0miep2i"
+
+# twitter account
+twitter = "https://twitter.com/Finoa_io"
