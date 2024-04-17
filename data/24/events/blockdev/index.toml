@@ -1,0 +1,133 @@
+# the name of your event
+name = "Blockchain Developers Berlin Pt. 2"
+
+# shortest possible name (without year)
+shortname = "Blockchain Developers Berlin"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["conference", "hackathon"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Jobited & Peer Network"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "LeBulius"
+
+# A point of contact (responsible person)
+poc = "Julius Breive"
+
+# the start date of the event
+date = "2024-05-18"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "15:00-19:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["hubraum"]
+
+# the event venue name
+# venueName = "hubraum – Tech Incubator of Deutsche Telekom"
+
+# # link to the venue on google maps
+# venueUrl = "https://maps.app.goo.gl/Sip1scE6UjS97cqQ6"
+
+# # the event venue address
+# venueAddress = "Winterfeldtstraße 21, 10781 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 400
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = []
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["developers", "cryptography", "entrepreneur", "sushi"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Hey there, Rust, Solidity, and Golang wizards! 🎉
+
+Get ready to dive into the heart of Berlin's tech scene with Blockchain Developers Berlin Pt.2, hosted by Peernetwork & Jobited. This isn't just another meetup; it's your golden ticket to a few hours of pure blockchain interaction, where coding languages meet creativity in the vibrant atmosphere of Hubraum - Deutsche Telekom's tech incubator.
+
+Mark your calendars for May 18, 2024, from 3:00 PM to 7:00 PM GMT+2, because you're invited to join us at Winterfeldtstraße 21, 10781 Berlin, Germany, for an unforgettable gathering of minds and code.
+
+​Whether you're a Rust aficionado, a Solidity specialist, or a Golang guru, this meetup is for you. Imagine a place where you can share your latest project, debate the merits of your favorite blockchain platform, and connect with fellow developers who speak your language, all in the span of a few hours.
+
+Bring your passion, your code, and your ideas to Blockchain Developers Berlin Pt.2. Let's make this more than just a meetup; let's make it a celebration of what we do best. Enjoy ourselves.
+
+See you there! 🚀
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/pk3i9gqv"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "FREE"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/pk3i9gqv"
+
+# custom action button label
+#button = "Get tickets!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# web = "https://lu.ma/pk3i9gqv"
+
+# twitter account
+twitter = "https://twitter.com/JobitedCom"
+
+# public matrix channel
+# matrix =
+
+# public telegram group
+telegram = "https://t.me/+CvSX8NKQrn02YWZi"
+
+# docs
+#docs =
+
+# discord
+# discord =
