@@ -41,16 +41,16 @@ days = 14
 times = "09:00-22:00"
 
 # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
-# venues = ["gabriel-loci"]
+venues = ["moos"]
 
 # the event venue name
-venueName = "MOOS Space"
+# venueName = "MOOS Space"
 
 # link to the venue on google maps
-venueUrl = "https://goo.gl/maps/example"
+# venueUrl = "https://goo.gl/maps/example"
 
 # the event venue address
-venueAddress = "Moosdorfstraße 7-9, 12435 Berlin"
+# venueAddress = "Moosdorfstraße 7-9, 12435 Berlin"
 
 # the languages in which the event will take place (you can choose more)
 languages = ["english"]
@@ -60,7 +60,7 @@ attendees = 120
 
 # blockchains that the event deals with
 # if it is an interchain event, then leave blank
-chains = ["ethereum", "cosmos", "interchain"]
+chains = ["ethereum", "cosmos"]
 
 # tags for the event, will show up as labels.
 # pick 1-4
