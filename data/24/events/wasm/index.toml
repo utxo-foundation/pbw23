@@ -1,0 +1,117 @@
+# the name of your event
+name = "AwesomWasm Hackathon 2024"
+
+# shortest possible name (without year)
+shortname = "AwesomWasm Hackathon"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["hackathon"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Confio GmbH"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "SaraDarcaj"
+
+# A point of contact (responsible person)
+poc = "Sara Darcaj"
+
+# the start date of the event
+date = "2024-05-28"
+
+# how many days the event lasts (1 - N)
+days = 3
+
+# the event times (shows up in the event card)
+times = "09:00-20:00"
+
+venues = ["web3hub"]
+
+# # the event venue name
+# venueName = "W3Hub Berlin"
+
+# # link to the venue on google maps
+# venueUrl = "https://www.google.es/maps/place/w3.hub/@52.497989,13.3777194,17z/data=!3m1!4b1!4m6!3m5!1s0x47a851d6a0f35983:0x196d001232025c0c!8m2!3d52.497989!4d13.3802943!16s%2Fg%2F11sj4bk51b?hl=es&entry=tts"
+
+# # the event venue address
+# venueAddress = "Möckernstraße 120, 10963 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 200
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+# chains = ["Kujira", "Neutron", "Cosmos"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["smart contract", "blockchain", "CosmWasm", "Cosmos" ]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Join us for the 2nd edition of AwesomWasm Hackathon, a thrilling event happening during Berlin Cosmos Week, on the 28th - 30th of May.
+Immerse yourself in a dynamic atmosphere of innovation, collaboration, and cutting-edge technology at the heart of Berlin's vibrant tech scene.
+"""
+
+[cfp]
+# link to call for participation
+link = "https://9otdq6rhaik.typeform.com/AWSpeaker"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "Free"
+
+# link to the registration or ticket purchase page
+link = "https://9otdq6rhaik.typeform.com/AwesomWasmHack"
+
+# custom action button label
+#button = "Register Here!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://www.awesomwasm.com/hackathon"
+
+# twitter account
+twitter = "https://twitter.com/AwesomWasm"
+
+# public telegram group
+telegram = "https://t.me/AwesomWasmhackathon"
+
+# discord
+discord = "https://discord.gg/aYvkYwwc"
