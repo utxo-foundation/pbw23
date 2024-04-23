@@ -40,10 +40,10 @@ days = 1
 times = "09:00-20:00"
 
 # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
-venues = ["factory"]
+venues = ["cic"]
 
 # # the event venue name
-# venueName = "Factory"
+# venueName = "cic"
 
 # # link to the venue on google maps
 # venueUrl = "https://maps.app.goo.gl/5MivzgdYnSyBQs9h9?g_st=ic"
@@ -89,7 +89,7 @@ type = "signup"
 price = "0 EUR"
 
 # link to the registration or ticket purchase page
-link = "https://newinternet.cc/apply"
+link = "https://lu.ma/aix"
 
 # custom action button label
 button = "Apply here"

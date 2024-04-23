@@ -41,7 +41,7 @@ days = 3
 times = "00:00-24:00"
 
 # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
-venues = ["factory"]
+venues = ["cic"]
 
 # the event venue name
 # venueName = "Example venue"
@@ -107,4 +107,3 @@ twitter = "https://twitter.com/ETHBerlin"
 
 # public matrix channel
 matrix = "https://matrix.to/#/%23ethberlin:dod.ngo"
-
