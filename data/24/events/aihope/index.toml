@@ -1,0 +1,164 @@
+# the name of your event
+name = "AI x Hope: New Internet"
+
+# shortest possible name (without year)
+shortname = "AI x Hope"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["meetup", "conference"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Seed Club Ventures, Newcoin.org, and Foresight Institute"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "newfound8ion"
+
+# A point of contact (responsible person)
+poc = "Madvi"
+
+# the start date of the event
+date = "2024-05-24"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "14:00-22:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "Molecule Offices"
+
+# link to the venue on google maps
+# venueUrl = ""
+
+# the event venue address
+venueAddress = "Alexandrinenstraße 118-121, 10969 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 120
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+# chains = ["ethereum", "newcoin", "optimism", "base", "near", "polygon", "omnichain"]
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["AI", "crypto"]
+
+# A logo attachment
+logo = "logo.jpg"
+
+# a description of the event.
+description = """
+Join us for BBW's decentralized AI day! Please note, the event is by application only and places are limited.
+
+We present:
+
+**AI x Hope: Towards Futures of Human-AI Interdependence**
+
+We stand at a crucial point in shaping how Human-AI cooperation will evolve and are witnessing the birth of a New Internet. We aim to approach this flippening with [Existential Hope](https://www.existentialhope.com/), and foster futures where humans and machines coexist to flourish ✨.
+
+Our belief is that a healthy and harmonious development of decentralized artificial general intelligence (AGI) can arise from an enlightened vantage point. Specifically, we hope to empower builders, researchers, creators and investors exploring positive futures and protocols at the intersection of AI, crypto and creativity, with AI x Hope as an enabler for coordination in sharing technical, research-based and values-aligned perspectives.
+
+We will converge through panel discussions, keynotes and workshops and think far and wide on the ways to align the nascent AI x crypto space for this new paradigm, where our collective synergy—in data, values and protocols—is all we need.
+
+Hosted by [Seed Club Ventures](https://seedclub.ventures/), [Newcoin.org](http://newcoin.org/), and [Foresight Institute](https://foresight.org/).
+
+[Newinternet.cc](http://newinternet.cc/)
+~~
+SPEAKERS
+Join us to talk with top researchers, founders, creators, and investors in decentralized AI, including:
+
+[Illia Polosukhin](https://twitter.com/ilblackdragon), Co-Founder @ NEARProtocol
+[Puja Ohlhaver](https://twitter.com/pujaohlhaver), Pluralist, Technologist
+[Sofiane Delloue](https://twitter.com/sofiane_nco), Co-Founder @ [Newcoin](http://www.newcoin.org/)
+[Scott Moore](https://twitter.com/notscottmoore), Cofounder @ PublicWorks, Gitcoin
+[Emad Mostaque](https://twitter.com/EMostaque), Founder @ Schelling.AI, former Founder @ Stability AI
+[Holly Herndon](https://twitter.com/hollyherndon), Co-Founder @ Spawning.ai
+[Matt Dryhurst](https://twitter.com/matdryhurst), Co-Founder @ Spawning.ai
+[Nick Naraghi](https://twitter.com/0xNN2), Co-Founder @ Hats Protocol
+[Lou de Kerhuelvez](https://twitter.com/louviq), Program Director @ Foresight Institute
+[NiMA Asghari](https://twitter.com/insideNiMA), Instigator @ Seed Club Ventures
+
+Speaker & workshop host applications [here](https://airtable.com/appUEWveA6PEFrL6z/pagg7cR4ZLVWWjlZm/form).
+
+AGENDA
+
+14:00 ~ Welcome hangout
+15:00-20:00 ~ Main Talks & Workshop Sessions
+20:00-22:00 ~ Social Gathering (in the summer garden)
+22:00+ ~ AFTERPARTY, berlin-style (You will be invited)
+
+Beanbag chill areas + summer garden open during the entire event for you.
+[See the program updates](https://www.newinternet.cc/)
+
+Thank you to our friends at Molecule for hosting us. Event production supported by Pretopia.
+
+SEED CLUB VENTURES
+[Seed Club Ventures](https://seedclub.ventures/) is a Venture DAO backing early-stage founders building at the intersection of web3 and community. With a membership of 60+ leading innovators and investors in crypto, we are diverse in our ability to support projects throughout their life cycle. Launched in partnership with [Seed Club](https://www.seedclub.xyz/) — the leading network for builders at the intersection of crypto, culture, and community — our mission is to build a community-owned internet.
+
+FORESIGHT INSTITUTE
+[Existential Hope](http://existentialhope.com/) is a [Foresight Institute](https://foresight.org/) project. Foresight is a non-profit that supports the beneficial development of high-impact technologies. From nanotech, to BCI, space exploration, cryptocommerce, biotech and AI, we gather leading minds to advance research and accelerate progress toward flourishing futures. Existential Hope project is the contextualizer of all our work. As we advance technology and science, we also want to ensure that we are progressing positive futures, and decreasing x-risks.
+
+NEWCOIN
+[Newcoin](https://www.newcoin.org/) is a decentralized AGI protocol for human-agent coordination. [Build on Newcoin](https://www.newcoin.org/build), or join [Newcoin OS](https://www.newcoin.org/os). Newcoin started as a [research project](https://github.com/newfound8ion/papers/blob/main/newcoin.pdf) in 2017, when [Newlife.ai](http://newlife.ai/) was launched as one of the pioneers of RLHF years before the launch of ChatGPT, and accelerated by NVIDIA in 2019. Backed by Seed Club Ventures and builders in DeAI. We support founders, builders and creators in our network with a mission to build the New Internet."
+"""
+
+[cfp]
+# link to call for particioation
+link = "https://airtable.com/appUEWveA6PEFrL6z/pagg7cR4ZLVWWjlZm/form"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "tickets"
+
+# price of the ticket
+price = "TBA"
+
+# link to the registration or ticket purchase page
+link = "https://newinternet.cc"
+
+# custom action button label
+#button = "Apply to join"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://newinternet.cc"
+
+
+# docs
+docs = "https://developer.newcoin.org"
