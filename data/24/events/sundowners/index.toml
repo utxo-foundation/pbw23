@@ -1,0 +1,123 @@
+# the name of your event
+name = "Sundowners with Starknet Foundation"
+
+# shortest possible name (without year)
+shortname = "Sundowners"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["party"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Starknet Foundation"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "teamgurkha"
+
+# A point of contact (responsible person)
+poc = "Gurk & Amy"
+
+# the start date of the event
+date = "2024-05-23"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "19:30-21:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "Atelier Rooftop"
+
+# link to the venue on google maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Prinzenstra%C3%9Fe+84+10969+Berlin"
+
+# the event venue address
+venueAddress = "Prinzenstraße 84.1, 10969 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 100
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["STARKS", "ZK", "L3"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Join us for a drink or two on our rooftop terrace as the day ends. Great tunes, great people and a great view.
+"""
+
+[cfp]
+# link to call for participation
+link = "https://lu.ma/5d22gq9g"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "0 EUR"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/5d22gq9g"
+
+# custom action button label
+#button = "Buy tickets!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/5d22gq9g"
+
+# twitter account
+twitter = "https://twitter.com/starknetevents"
+
+# # public matrix channel
+# matrix = " "
+
+# # public telegram group
+# telegram = " "
+
+# docs
+#docs = "https://book.starknet.io/"
+
+# discord
+discord = "https://discord.gg/K4BwQVbm"
