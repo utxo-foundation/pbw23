@@ -1,0 +1,125 @@
+# the name of your event
+name = "Builder Nights Berlin - Presented by MetaMask 🦊 , Linea,Safe,1inch.io and ZKLink"
+
+# shortest possible name (without year)
+shortname = "Builder Nights Berlin"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["meetup"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "planning"
+
+# the name of the group organizing the event
+org = "MetaMask 🦊 , Linea,Safe,1inch.io and ZKLink"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "andreolf"
+
+# A point of contact (responsible person)
+poc = "francesco Andreoli"
+
+# the start date of the event
+date = "2024-05-25"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "17:00-21:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["Safe Office"]
+
+# the event venue name
+venueName = "Safe venue"
+
+# link to the venue on google maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Gontardstra%C3%9Fe+11+10178+Berlin"
+
+# the event venue address
+venueAddress = "Gontardstraße 11, 10178 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 250
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Builder Nights", "cryptography", "4337", "L2"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+We are thrilled to announce our Builder Nights Berlin, taking place in during DappCon, Safe{Con} and ETHBerlin ! Over the past two years, we've been incredibly fortunate to foster communities across five continents and host top Web3 thought leaders. Our list of guests have included Vitalik Buterin, Yat Siu, Joe Lubin, Dan Finlay, and many others.
+
+Immerse yourself in insightful discussions with the biggest brains in the Web3 game, network with other giga 🧠, and expand your knowledge of one of the hottest industry topics. The evening promises to be filled with builder insights and ample networking opportunities! 🤝
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/buidlberlin"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "tickets"
+
+# price of the ticket
+price = "0 EUR"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/buidlberlin"
+
+# custom action button label
+#button = "Buy tickets!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/buidlberlin"
+
+# twitter account
+twitter = "https://twitter.com/francescoswiss"
+
+# # public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# # public telegram group
+# telegram = "https://t.me/example"
+
+# docs
+#docs = "https://example.org/docs"
+
+# # discord
+# discord = "https://discord.com/invite/AsDf1337"
