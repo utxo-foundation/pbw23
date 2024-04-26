@@ -72,6 +72,14 @@ logo = "logo.png"
 # a description of the event.
 description = """
 ETHBerlin is a hackathon, a cultural festival, an educational event, a platform for hacktivism, and a community initiative to push the decentralized ecosystem forward.
+
+The event registrations are now closed!
+
+FRIDAY
+- REGISTRATION 12:00
+- DOORS OPEN 16:00
+
+Check out the website for the full schedule.
 """
 
 [registration]
