@@ -89,14 +89,14 @@ price = "free"
 link = "https://visas.ethberlin.org/ethberlin/4/"
 
 # custom action button label
-button = "Sign up!"
+button = "CLOSED!"
 
 # status of registrations
 #  Possible values:
 #   * available
 #   * sold-out
 #   * closed
-status = "available"
+status = "closed"
 
 [links]
 # the website of the event
