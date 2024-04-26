@@ -1,0 +1,113 @@
+# the name of your event
+name = "Finoa's Blockparty: Celebrating Berlin's Crypto Craze"
+
+# shortest possible name (without year)
+shortname = "Finoa's Blockparty"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["party"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Finoa"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "marius-smith"
+
+# A point of contact (responsible person)
+poc = "Marius Smith"
+
+# the start date of the event
+date = "2024-05-23"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "18:00-02:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "Finoa Headquarters"
+
+# link to the venue on google maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Saarbruecker+Stra%C3%9Fe+37+10405+Berlin"
+
+# the event venue address
+venueAddress = "Saarbrücker Str. 37, 10405 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 200
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum", "polkadot", "cosmos"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["party", "networking"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Join us for an electrifying evening of celebration as we toast to the vibrant Berlin ecosystem at Finoa's Blockparty! Get ready to groove to the beats of DJs while sipping on drinks that epitomize Berlin's party spirit, setting the perfect tone to kick off the night.
+
+This event is a gathering of venture capitalists, innovators, entrepreneurs, and enthusiasts coming together to revel in the dynamic spirit of Berlin's crypto scene. Whether you're a seasoned investor, a budding entrepreneur, or a degen, this is the ultimate opportunity to connect, collaborate, and raise a glass to the successes of our community.""
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/hzsjmzkm"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "Free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/hzsjmzkm"
+
+# custom action button label
+#button = "Get tickets!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/hzsjmzkm"
+
+# twitter account
+twitter = "https://twitter.com/Finoa_io"
