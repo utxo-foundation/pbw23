@@ -1,0 +1,125 @@
+# the name of your event
+name = "Scroll on the Kotti Canal"
+
+# shortest possible name (without year)
+shortname = "Scroll on the Kotti Canal"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["meetup", "party"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Scroll"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "dghelm"
+
+# A point of contact (responsible person)
+poc = "Dylan Dedi"
+
+# the start date of the event
+date = "2024-05-22"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "18:30-20:30"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "Admiralstr 15"
+
+# link to the venue on google maps
+venueUrl = "https://www.google.com/maps/search/?api=1&query=Admiralstra%C3%9Fe%2015&query_place_id=ChIJCZUT8sxPqEcRREiTGjl9K68"
+
+# the event venue address
+venueAddress = "Admiralstraße 15, 10999 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 100
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+# tags = ["solarpunk", "cryptography"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+​Come by for some drinks with the Scroll squad and our buddies at peanut.to! Hang out for a bevvie on Admiralbrücke bridge like a true Berliner.
+
+​We'll have DJs, natural wine (while supplies last), and some cool swag 😎
+"""
+
+[cfp]
+# link to call for particioation
+# link = "https://example.com/speaker"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "Free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/dtwr61ox"
+
+# custom action button label
+button = "Signup"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/dtwr61ox"
+
+# twitter account
+# twitter = "https://twitter.com/ExampleConf"
+
+# public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# public telegram group
+# telegram = "https://t.me/example"
+
+# docs
+# docs = "https://example.org/docs"
+
+# discord
+# discord = "https://discord.com/invite/AsDf1337"
