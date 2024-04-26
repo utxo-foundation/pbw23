@@ -47,7 +47,7 @@ times = "18:30-20:30"
 venueName = "Admiralstr 15"
 
 # link to the venue on google maps
-venueUrl = "https://www.google.com/maps/search/?api=1&query=Admiralstra%C3%9Fe%2015&query_place_id=ChIJCZUT8sxPqEcRREiTGjl9K68"
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Admiralstra%C3%9Fe+15+10999+Berlin"
 
 # the event venue address
 venueAddress = "Admiralstraße 15, 10999 Berlin, Germany"
@@ -71,12 +71,12 @@ logo = "logo.png"
 
 # a description of the event.
 description = """
-​Come by for some drinks with the Scroll squad and our buddies at peanut.to! Hang out for a bevvie on Admiralbrücke bridge like a true Berliner.
+Come by for some drinks with the Scroll squad and our buddies at peanut.to! Hang out for a bevvie on Admiralbrücke bridge like a true Berliner.
 
-​We'll have DJs, natural wine (while supplies last), and some cool swag 😎
+We'll have DJs, natural wine (while supplies last), and some cool swag 😎
 """
 
-[cfp]
+#[cfp]
 # link to call for particioation
 # link = "https://example.com/speaker"
 
