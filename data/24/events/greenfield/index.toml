@@ -1,0 +1,124 @@
+# the name of your event
+name = "Drinks_ Reception by Greenfield, NEAR, Celo and Q"
+
+# shortest possible name (without year)
+shortname = "Drinks_ Reception"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["party"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Greenfield, NEAR, Celo, Q"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "GreenfieldCap"
+
+# A point of contact (responsible person)
+poc = "Karolina Kowalik"
+
+# the start date of the event
+date = "2024-05-22"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "20:30-23:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+# venueName = "Example venue"
+
+# # link to the venue on google maps
+# venueUrl = "https://goo.gl/maps/example"
+
+# # the event venue address
+# venueAddress = "118 Holland St, Somerville, MA 02144"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 80
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum", "polkadot"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["party", "networking"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """Gm builders! It's Berlin Blockchain Week once more.
+Come and join us for an evening filled with cool music, cocktails, friends -old and new- and a stunning view over Berlin.
+We (Greenfield, NEAR, Celo and Q) are eager to catch up with you and hear about what you're building!
+We're excited for a fantastic evening with all of you. Please sign up promptly, as seats are limited,."""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://example.com/speaker"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/greenfield-berlin-blockchain-week"
+
+# custom action button label
+#button = "Buy tickets!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/greenfield-berlin-blockchain-week"
+
+# twitter account
+twitter = "https://twitter.com/greenfield_cap"
+
+# public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# # public telegram group
+# telegram = "https://t.me/example"
+
+# docs
+#docs = "https://example.org/docs"
+
+# discord
+# discord = "https://discord.com/invite/AsDf1337"
