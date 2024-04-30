@@ -1,0 +1,12 @@
+name = "hubraum"
+eventTypes = ["conference", "hackathon"]
+capacity = 400
+address = "Winterfeldtstraße 21, 10781 Berlin, Germany"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Winterfeldstra%C3%9Fe+21+10781+Berlin"
+description = '''
+Tech Incubator of Deutsche Telekom.
+'''
+photo = "logo.jpg"
+
+[links]
+web = "https://hubraum.com/"

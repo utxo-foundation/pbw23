@@ -1,0 +1,108 @@
+# the name of your event
+name = "DeSci Berlin 2024"
+
+# shortest possible name (without year)
+shortname = "DeSci Berlin"
+
+# type of the event
+types = ["conference"]
+
+# status of the event
+status = "published"
+
+# the name of the group organizing the event
+org = "Molecule"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "none"
+
+# A point of contact (responsible person)
+poc = "Ezanne Tessendorf"
+
+# the start date of the event
+date = "2024-05-23"
+
+# how many days the event lasts (1 - N)
+days = 2
+
+# the event times (shows up in the event card)
+times = "10:00-18:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "Molecule Offices"
+
+# link to the venue on google maps
+# venueUrl = ""
+
+# the event venue address
+venueAddress = "Alexandrinenstraße 118-121, 10969 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 120
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["decentralized science", "desci", "science"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+DeSci.Berlin's goal is to deepen our attendees' understanding of decentralized science, and specifically, of biotech DAOs (BioDAOs).
+"""
+
+#[cfp]
+# link to call for particioation
+# link = "https://fluence.chat/depin-berlin-speak"
+
+[registration]
+# type of registration
+type = "signup"
+
+# price of the ticket
+price = "Free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/zbm8gm3x"
+
+# custom action button label
+#button = "Sign up!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://desci.berlin/"
+
+# twitter account
+twitter = "https://twitter.com/DeSciBerlin"
+
+# public matrix channel
+# matrix = ""
+
+# public telegram group
+# telegram = ""
+
+# docs
+# docs = ""
+
+# discord
+# discord = ""

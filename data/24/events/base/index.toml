@@ -1,0 +1,159 @@
+# # the name of your event
+name = "BasedBerlin Hackathon"
+
+# # shortest possible name (without year)
+shortname = "BasedBerlin"
+
+# # type of the event
+# #  available types (you can choose more):
+# #   * meetup
+# #   * conference
+# #   * hackathon
+# #   * expo
+# #   * party
+# #   * other
+types = ["hackathon"]
+
+# # status of the event
+# #  available types:
+# #   * idea
+# #   * planning
+# #   * published
+status = "published"
+
+# # the name of the group organizing the event
+org = "Coinbase"
+
+# # the github handle of the directly responsible individual for this event
+# # (this person will coordinate with #bbw24 organizers)
+dri = "serra_nur16"
+
+# # A point of contact (responsible person)
+poc = "Serra Saridereli"
+
+# # the start date of the event
+date = "2024-05-20"
+
+# # how many days the event lasts (1 - N)
+days = 1
+
+# # the event times (shows up in the event card)
+times = "10:00-22:00"
+
+# # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["web3hub"]
+
+# # the event venue name
+# venueName = "Example venue"
+
+# # link to the venue on open street maps
+# venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
+
+# # the event venue address
+# venueAddress = "Rungestraße 20, 10179 Berlin"
+
+# # the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# # the max number of attendees of the event
+attendees = 100
+
+# # blockchains that the event deals with
+# # if it is an interchain event, then leave blank
+# chains = ["example"]
+
+# # tags for the event, will show up as labels.
+# # pick 1-4
+tags = ["base", "ledger"]
+
+# # A logo attachment
+logo = "logo.png"
+
+# # a description of the event.
+description = """
+Calling BUIDLers in Berlin 🔵
+
+👀 Curious what the Farcaster Frames hype is all about? Ready to build on Base? Join the BasedBerlin Hackathon to find out!
+
+Learn how to build a Farcaster Frame on Base, a mini-app that enables builders, creators, and tinkerers a new way to create delightful experiences onchain.
+
+⛓️ Stretch your imagination and leave your mark in one of the fastest-growing onchain social ecosystems.
+
+After a day of building, you'll have an opportunity to showcase your project and earn a reward.
+
+🎉 We'll have breakfast and coffee throughout the event, followed by happy hour and connections with builders. See you in Berlin!
+
+This event is proudly hosted in collaboration with Ledger.
+
+** Please note this event is for builders who have experience with onchain development **
+
+📜 Agenda
+
+10:00 - 10:15 | Opening + Breakfast
+10:15 - 10:30 | Briefing + Logistics
+10:30 - 11:00 | Frames 101 + Demo
+11:00 - 11:30 | Team Formation + Brainstorming
+11:30 - 12:00 | Lunch
+12:00 - 17:00 | Hacking
+17:00 - 18:30 | Project Demo
+18:30 - 19:00 | Review + Prize
+19:00 - 22:00 | Happy Hour
+
+⚙️ Prerequisites
+
+You will need the following before entering the event:
+
+- Telegram Account: You will need to join our invite-only TG channel to onboard and connect with other hackers! We will share this with you once you're approved for the event.
+- Self Custodial Wallet (Coinbase Wallet preferred, but not required): You will need a wallet to be able to receive an event NFT
+- Farcaster Account: You will need a Farcaster account to build the frames and participate the hackathon.
+- During the event, we will ask you to form teams of min 2 builders
+
+🏆 Prizes & Categories
+
+3 Winning Teams: $1500 USDC each
+
+Categories:
+1. Easiest to use
+2. Most creative
+3. Use case to get more people onchain
+
+
+"""
+
+[registration]
+# # type of registration
+# #  Possible values:
+# #   * tickets
+# #   * invites
+# #   * signup
+type = "signup"
+
+# # price of the ticket
+# price = "100 EUR"
+
+# # link to the registration or ticket purchase page
+link = "https://lu.ma/BasedBerlin24"
+
+# # custom action button label
+# #button = "Buy tickets!"
+
+# # status of registrations
+# #  Possible values:
+# #   * available
+# #   * sold-out
+# #   * closed
+status = "available"
+
+# [links]
+# # the website of the event
+# # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# web = "https://example.org/"
+
+# # twitter account
+# twitter = "https://twitter.com/ExampleConf"
+
+# # public telegram group
+# telegram = "https://t.me/example"
+
+# # docs
+# #docs = "https://example.org/docs"

@@ -1,0 +1,120 @@
+# the name of your event
+name = "Cosmos Berlin²"
+
+# shortest possible name (without year)
+shortname = "Cosmos Berlin²"
+
+# type of the event =
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["conference"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Cosmoverse"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "jmaytree"
+
+# A point of contact (responsible person)
+poc = "Juri Maibaum"
+
+# the start date of the event
+date = "2024-05-27"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "10:00-17:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["web3hub"]
+
+# # the event venue name
+# venueName = "w3.hub"
+
+# # link to the venue on google maps
+# venueUrl = "https://g.co/kgs/3uF23HZ"
+
+# # the event venue address
+# venueAddress = "Möckernstraße 120, 10963 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 500
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["cosmos"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["cosmos", "ibc"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+We are coming back to Berlin 🇩🇪
+
+Cosmos Berlin² is set to take place on May 27, 2024. Expect a full-day event packed with keynotes/ panels, an exhibition area, F&B, and much more.
+
+Cosmos Berlin² marks the kick-off event for the "Berlin Cosmos Week" at the end of May.
+
+This year, the event will focus on chain abstraction, modularity, AI, and DePIN.
+
+Agenda TBA
+Partners TBA
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/cosmosberlin2"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "tickets"
+
+# price of the ticket
+price = "0 EUR"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/cosmosberlin2"
+
+# custom action button label
+#button = "Sign up!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://cosmoverse.org/cosmosglobal"
+
+# twitter account
+twitter = "https://twitter.com/cosmoverseHQ"

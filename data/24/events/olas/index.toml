@@ -1,0 +1,105 @@
+# the name of your event
+name = "Agents Unleashed: Olas Product Launch Party"
+
+# shortest possible name (without year)
+shortname = "Olas Product Launch Party"
+
+# type of the event
+#  available types (you can choose more):
+#   * party
+types = ["party"]
+
+
+# status of the event
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Olas"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "ralphpahlmeyer"
+
+# A point of contact (responsible person)
+poc = "Ralph Pahlmeyer"
+
+# the start date of the event
+date = "2024-05-21"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "16:00-20:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["Locke at East Side Gallery, Friedrichshain, Mühlenstraße 61-63, 10243 Berlin, Germany"]
+
+# the event venue name
+venueName = "Locke at East Side Gallery, Friedrichshain"
+
+# # link to the venue on google maps
+# venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
+
+# # the event venue address
+# venueAddress = "118 Holland St, Somerville, MA 02144"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 100
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+# chains = [""]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["ai", "agents", "blockchain", "web3", "aiagents"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = "Come celebrate a major Olas consumer product launch while overlooking the Spree. Enjoy drinks and canapés courtesy of the Valory team (core contributors to Olas)."
+
+# [cfp]
+# # link to call for participation
+# link = "https://lu.ma/ezds98r7"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "Free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/ezds98r7"
+
+# custom action button label
+#button = "Sign up"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/ezds98r7"
+
+# twitter account
+twitter = "https://twitter.com/autonolas"
+
+# discord
+discord = "https://discord.gg/38hUhDkb"

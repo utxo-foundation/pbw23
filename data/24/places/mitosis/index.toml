@@ -1,0 +1,12 @@
+name = "Mitosis LAB"
+eventTypes = ["conference", "meetup"]
+capacity = 250
+address = "Sonnenallee 67, 12045 Berlin"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Sonnenallee+67+12045+Berlin"
+description = '''
+Open Loft for Business Events in Berlin-Neukölln
+'''
+photo = "logo.png"
+
+[links]
+web = "https://mitosis.co/en/the-venue-for-your-meeting-in-berlin/"

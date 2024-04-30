@@ -1,0 +1,125 @@
+# the name of your event
+name = "Safe{con}2"
+
+# shortest possible name (without year)
+shortname = "Safe{con}"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["conference"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Safe"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "0xsuzuki"
+
+# A point of contact (responsible person)
+poc = "Finn Suzuki"
+
+# the start date of the event
+date = "2024-05-23"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "09:00-24:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["spindler"]
+
+# the event venue name
+# venueName = "spindler and klatt"
+
+# link to the venue on google maps
+# venueUrl = "https://maps.app.goo.gl/pFDcntYEFbwbRcjM6"
+
+# the event venue address
+# venueAddress = "Köpenicker Str. 16-17 -17, 10997 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 750
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["self custody"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Connect with communities working to fast-track smart accounts and the future of ownership.
+
+Safe{Con} is Safe's flagship smart account conference, aiming to bridge the gaps and accelerate the transition to smart accounts and self-custodial solutions for ownership.\
+"""
+
+[cfp]
+# link to call for particioation
+link = "https://form.typeform.com/to/hnpWEDNN"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "0 EUR"
+
+# link to the registration or ticket purchase page
+link = "https://conf.safe.global/"
+
+# custom action button label
+#button = "Sign up now!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://conf.safe.global/"
+
+# twitter account
+twitter = "https://twitter.com/safe"
+
+# public matrix channel
+# matrix = ""
+
+# public telegram group
+# telegram = ""
+
+# docs
+#docs = "https://docs.safe.global/home/what-is-safe"
+
+# discord
+discord = "https://discord.gg/EUVmnxCN"

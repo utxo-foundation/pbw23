@@ -1,0 +1,12 @@
+name = "Radialsystem"
+eventTypes = ["conference"]
+capacity = 800
+address = "Holzmarktstraße 33, 10243 Berlin"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Holzmarktstra%C3%9Fe+33+10243+Berlin"
+description = '''
+This one-time pumping station on the Spree has been host to wide-ranging performances, transforming the entire building and its grounds into a stage.
+'''
+photo = "photo.jpg"
+
+[links]
+web = "https://radialsystem.de/"

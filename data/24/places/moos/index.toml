@@ -1,0 +1,12 @@
+name = "MOOS Space"
+eventTypes = ["hackathon", "other"]
+capacity = 120
+address = "Moosdorfstraße 7-9, 12435 Berlin"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Moosdorfstra%C3%9Fe+7-9+12435+Berlin"
+description = '''
+Beautifully situated at the Treptower Park in the former bathtub factory Moosdorf & Hochhäusler (1st rocking bathtub in the world) is the moos. We still do not know what it is, but there are beings who work here, think, live, hang out, let go, be spontaneous, drink coffee, develop projects and so on. Maybe we'll come up with more about "What we are, what we do" in the future – just drop by and make your own picture!!!
+'''
+photo = "logo.jpg"
+
+[links]
+web = "https://moos.space/"

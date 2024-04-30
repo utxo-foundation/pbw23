@@ -1,0 +1,133 @@
+# the name of your event
+name = "Wormhole x Staking Facilities: Guardians of the Multichain"
+
+# shortest possible name (without year)
+shortname = "Guardians of the Multichain"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["meetup", "conference", "party"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Staking Facilities"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "rpd089"
+
+# A point of contact (responsible person)
+poc = "Robet Dörzbach"
+
+# the start date of the event
+date = "2024-05-23"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "12:00-22:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["web3hub"]
+# venueName = "w3 hub"
+# venueAddress = "Möckernstraße 120, 10963 Berlin, Germany"
+
+# # the event venue name
+# venueName = "w3 hub"
+
+# # link to the venue on google maps
+# venueUrl = "https://maps.app.goo.gl/wuisogie3QMycaeC9"
+
+# # the event venue address
+# venueAddress = "Möckernstraße 120, 10963 Berlin, Germany"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 300
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+# chains = [""]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["wormhole", "multichain"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+In times of turmoil, unite. Rise beyond tribalism. Calling the Guardians of the Multichain.
+
+As the world is starting to embrace crypto and it is becoming more apparent that a lot of economic activity is moving on-chain, we want to reinforce the notion of a multi-chain world.
+
+As the leading interoperability platform for multichain bridges and applications, Wormhole embodies this sentiment to the fullest. This is why we want to facilitate a place for the Wormhole community and ecosystem partners to connect, exchange, and advocate the vision of a 'web of web3'.
+
+Expect a full day of workshops, presentations, panels, as well as games, music, food and drinks.
+
+Agenda coming soon. Please RSVP.
+"""
+
+[cfp]
+# link to call for particioation
+link = "https://lu.ma/30e3ctlk"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "free"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/30e3ctlk"
+
+# custom action button label
+#button = "Register"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# web = "https://lu.ma/30e3ctlk"
+
+# twitter account
+twitter = "https://twitter.com/StakingFac"
+
+# public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# public telegram group
+# telegram = "https://t.me/example"
+
+# docs
+#docs = "https://example.org/docs"
+
+# discord
+# discord = "https://discord.com/invite/AsDf1337"

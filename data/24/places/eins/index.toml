@@ -1,0 +1,12 @@
+name = "EINS"
+eventTypes = ["meetup"]
+capacity = 100
+address = "Ernst-Reuter-Platz 1, 10587 Berlin"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Ernst-Reuter-Platz+1+10587+Berlin"
+description = '''
+TU Berlin, EINS - Innovationsplattform und Coworkingspace.
+'''
+photo = "logo.jpg"
+
+[links]
+web = "https://www.tu.berlin/themen/gruenden/eins"

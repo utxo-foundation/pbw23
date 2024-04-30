@@ -1,0 +1,108 @@
+# the name of your event
+name = "DEPIN DAY BERLIN"
+
+# shortest possible name (without year)
+shortname = "DEPIN DAY"
+
+# type of the event
+types = ["conference"]
+
+# status of the event
+status = "published"
+
+# the name of the group organizing the event
+org = "Fluence & 1kx"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "dearnadia"
+
+# A point of contact (responsible person)
+poc = "Nadia Venzhina"
+
+# the start date of the event
+date = "2024-05-22"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "12:00-18:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "TBA"
+
+# link to the venue on google maps
+# venueUrl = ""
+
+# the event venue address
+venueAddress = "TBA"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 150
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = []
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["decentralized infrastructure", "depin"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Join us for the second edition of DEPIN DAY: dive into the latest topics and research in DePin and decentralized compute including multi-party computation, decentralized RPC, capacity rewards and proof systems. Enjoy keynotes and panel discussions, mingle and discuss with DePIN leaders, researchers, developers, and enthusiasts coming to Berlin Blockchain Week 2024 💥"
+"""
+
+[cfp]
+# link to call for particioation
+link = "https://fluence.chat/depin-berlin-speak"
+
+[registration]
+# type of registration
+type = "signup"
+
+# price of the ticket
+price = "0 EUR"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/depin-berlin"
+
+# custom action button label
+#button = "Sign up!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# web = "soon"
+
+# twitter account
+twitter = "https://twitter.com/depinday"
+
+# public matrix channel
+# matrix = ""
+
+# public telegram group
+# telegram = ""
+
+# docs
+# docs = ""
+
+# discord
+# discord = ""

@@ -1,0 +1,18 @@
+name = "Spindler & Klatt"
+eventTypes = ["conference"]
+capacity = 750
+address = "Köpenicker Str. 16-17, 10997 Berlin, Germany"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Stra%C3%9Fe+16%2C+10997+Berlin"
+description = '''
+Located directly on the Spree, this works Spindler & Klatt as one of the most extraordinary locations in Berlin.
+The focus is on reducing things to the essentials, with the highest standards of functionality and aesthetics always being in the foreground.
+
+A microcosm in the capital, which has been home to a wide variety of event concepts on the former East-West border for 20 years.
+The implementation of the Spindler & Klatts is based on the idea of a studio that can continue to develop technically and logistically over the years and stands for special ideas and concepts.
+
+Typically Berlin - self-confident, diverse, creative and international
+'''
+photo = "photo.jpg"
+
+[links]
+web = "https://www.spindlerklatt.com/"

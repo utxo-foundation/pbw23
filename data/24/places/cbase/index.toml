@@ -1,0 +1,12 @@
+name = "c-base"
+eventTypes = ["conference", "meetup"]
+capacity = 100
+address = "Rungestraße 20, 10179 Berlin"
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
+description = '''
+c-base space station is a hacker space.
+'''
+photo = "logo.webp"
+
+[links]
+web = "https://c-base.org"

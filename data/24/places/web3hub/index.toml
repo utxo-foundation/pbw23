@@ -1,0 +1,33 @@
+# name of the venue
+name = "w3.hub"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+eventTypes = ["conference", "hackathon", "meetup", "expo"]
+
+# max number of attendees
+capacity = 200
+
+# Street address
+address = "Möckernstraße 120, 10963 Berlin"
+
+# OSM/Google Maps URL
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=M%C3%B6ckernstra%C3%9Fe+120%2C+10963+Berlin"
+
+# Venue Description
+description = '''
+w3.hub is Berlin's Home of Web3. Work, Connect & Celebrate Web3 at w3.hub.
+'''
+
+# Venue Photo or Logo
+photo = "logo.png"
+
+# Venue Link
+[links]
+web = "https://w3hub.berlin/host-events"

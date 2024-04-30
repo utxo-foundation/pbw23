@@ -1,0 +1,151 @@
+# the name of your event
+name = "Modular Day by w3.fund x Celestia"
+
+# shortest possible name (without year)
+shortname = "Modular Day"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+
+types = ["conference"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "w3.hub"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "hbredi"
+
+# A point of contact (responsible person)
+poc = "Vicktoria Klich"
+
+# the start date of the event
+date = "2024-05-25"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "15:00-20:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["web3hub"]
+
+# # the event venue name
+# venueName = "w3.hub"
+
+# # link to the venue on google maps
+# venueUrl = "https://maps.app.goo.gl/uD1yncPL7ACUYyZs8"
+
+# # the event venue address
+# venueAddress = "Moeckernstraße 120, 10963 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 200
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+chains = ["ethereum"]
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["modular", "community", "tokenization"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Berlin Blockchain Week is full of exciting things such as knowledge exchange, insights & networking.
+
+After a full week of input, let's come together and talk about Web3 applications.
+
+For this purpose we have an exciting combo from different industries to tackle "The Future of Payments".
+
+What to expect?
+
+Doors open at w3.hub from 3PM. Let's use the opportunity to review Berlin Blockchain Week.
+
+4PM -> Start of the program
+
+Introduction by [w3.fund](http://w3.fund/); purpose of the event, sneak peek into the Afterparty & the Beer Pong Tournament
+
+4:20PM -> Applications on Celestia
+
+5PM -> Break, get some drinks & snacks
+
+5:30PM -> [Tokenize.it](http://tokenize.it/) presentation
+
+5:45PM -> DeFi Bank by Unstoppable Finance
+
+6PM -> Panel w/ Q&A on "The Future of Payments" with Celestia, [Tokenize.it](http://tokenize.it/), Unstoppable Finance & X [stay tuned 🥹]; moderated by [w3.fund](http://w3.fund/)
+
+6:40PM - Pizza & Drinks 🍻🍕
+
+Transition into BBW Afterparty & Beer Pong Tournament with Drinks & DJs
+
+
+Stay tuned for updates and make sure to bring your curiosity & good vibes.
+
+If you have any questions, feel free to reach out to [vicktoria@w3.fund](mailto:vicktoria@w3.fund)
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://example.com/speaker"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# # price of the ticket
+# price = ""
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/j6yvpfgm"
+
+# custom action button label
+#button = "Sign-Up Now"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/j6yvpfgm"
+
+# twitter account
+twitter = "https://twitter.com/w3_hub"
+
+# # public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# # public telegram group
+# telegram = "https://t.me/example"
+
+# docs
+#docs = "https://example.org/docs"
+
+# # discord
+# discord = "https://discord.com/invite/AsDf1337"

@@ -20,11 +20,11 @@ export class DeConfEngine {
     this.tag = this.options.tag || "dev";
     this.srcDir = this.options.srcDir || "./data";
     this.outputDir = this.options.outputDir || "./dist";
-    this.publicUrl = this.options.publicUrl || "https://data.prgblockweek.com";
+    this.publicUrl = this.options.publicUrl || "https://duplicity6-sulfur-objet0-air1.protocol.berlin";
     this.exploreUrl = this.options.exploreUrl ||
-      "https://explore.prgblockweek.com";
+      "https://blockchainweek.berlin";
     this.githubUrl = this.options.githubUrl ||
-      "https://github.com/utxo-foundation/prague-blockchain-week/tree/main/data";
+      "https://github.com/blockchainweek/data/tree/main/data";
 
     if (options.silent) {
       _silentMode = true;
@@ -232,18 +232,15 @@ class DeConf_Collection {
           continue;
         }
         const [sstart, send] = sg.times.split("-");
-        sg.startTime = (new Date(`${sg.date}T${sstart}`)).toISOString();
+        sg.startTime = (new Date(`${sg.date}T${sstart.trim()}`)).toISOString();
         const endDate = send <= sstart
           ? format(addDays(new Date(sg.date), 1), "yyyy-MM-dd")
           : sg.date;
-        sg.endTime = (new Date(`${endDate}T${send}`)).toISOString();
+        sg.endTime = (new Date(`${endDate}T${send.trim()}`)).toISOString();
       }
     }
     if (
-      this.dir &&
-      (!data.index.hidden ||
-        this.engine.options.hiddenAllowed &&
-          this.engine.options.hiddenAllowed.includes("bitcoin-prague"))
+      this.dir && !data.index.hidden
     ) {
       const syncDataFn = [this.dir, "data.json"].join("/");
       if (await exists(syncDataFn)) {
