@@ -1,0 +1,145 @@
+# the name of your event
+name = "Krypto - Steuer Meetup"
+
+# shortest possible name (without year)
+shortname = "Krypto - Steuer"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["meetup"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Pekuna"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "PekunaMaster"
+
+# A point of contact (responsible person)
+poc = "Werner Hoffmann"
+
+# the start date of the event
+date = "2024-05-22"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "17:00-20:30"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# venues = ["gabriel-loci"]
+
+# the event venue name
+venueName = "Taxfix office"
+
+# link to the venue on google maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=K%C3%B6penicker+Stra%C3%9Fe+122%2C+10179+Berlin"
+
+# the event venue address
+venueAddress = "Köpenicker Str. 122, 10179 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["german"]
+
+# the max number of attendees of the event
+attendees = 200
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+# chains = []
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["blockchain", "crypto", "legal", "regulatory", "taxes", "profit"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Du hast in Kryptowährungen investiert und jetzt lässt dich der Gedanke an das Finanzamt nicht mehr ruhig schlafen?
+
+Dann solltest du dieses Meetup besuchen. Wir werden über die Grundlagen zur Besteuerung von Kryptowährungen sprechen, aber auch über die neusten Entwicklungen und die größten Steuerfallen.
+
+Im Anschluss wird es neben dem rechtlichen Vortrag noch kurze Beiträge zum Thema der Umsetzung in der Praxis geben.
+
+Agenda:
+
+Beginn Einlass: 17:00
+
+Vortrag zum Thema Krypto-Steuer: 17:30
+
+Krypto-Steuer in der Praxis: 19:00
+
+Networking und Drinks: 19:30
+
+Sponsoren:
+
+Taxfix: [www.taxfix.de](http://www.taxfix.de/)
+
+Pekuna: [www.pekuna.de](http://www.pekuna.de/)
+
+Cointracking: [www.cointracking.info](http://www.cointracking.info/)
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/o0box0o4"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "Free!"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/o0box0o4"
+
+# custom action button label
+#button = "Signup!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/o0box0o4"
+
+# twitter account
+twitter = "https://twitter.com/pekuna_steuer"
+
+# public matrix channel
+# matrix = "https://matrix.to/#/!example:example.org"
+
+# public telegram group
+# telegram = "https://t.me/example"
+
+# docs
+#docs = "https://example.org/docs"
+
+# discord
+# discord = "https://discord.com/invite/AsDf1337"
