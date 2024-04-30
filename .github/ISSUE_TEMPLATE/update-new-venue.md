@@ -29,8 +29,8 @@ capacity = 350
 # Street address
 address = "Lohmuehlenstraße 65, 12435 Berlin"
 
-# OSM/Google Maps URL
-mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Lohmuehlenstra%C3%9Fe+65+12435+Berlin"
+# OSM Maps URL
+mapUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
 
 # Venue Description
 description = '''

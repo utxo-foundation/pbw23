@@ -57,11 +57,11 @@ times = "09:00-20:00"
 # the event venue name
 venueName = "Example venue"
 
-# link to the venue on google maps
-venueUrl = "https://goo.gl/maps/example"
+# link to the venue on open-street maps
+venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
 
 # the event venue address
-venueAddress = "118 Holland St, Somerville, MA 02144"
+venueAddress = "Rungestraße 20, 10179 Berlin"
 
 # the languages in which the event will take place (you can choose more)
 languages = ["english"]
