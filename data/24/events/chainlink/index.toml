@@ -1,0 +1,137 @@
+# the name of your event
+name = "Chainlink's Morning Mixer: Innovations Over Brunch"
+
+# shortest possible name (without year)
+shortname = "ChainlinkBBW"
+
+# type of the event
+#  available types (you can choose more):
+#   * meetup
+#   * conference
+#   * hackathon
+#   * expo
+#   * party
+#   * other
+types = ["meetup"]
+
+# status of the event
+#  available types:
+#   * idea
+#   * planning
+#   * published
+status = "published"
+
+# the name of the group organizing the event
+org = "Chainlink Labs"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with #bbw24 organizers)
+dri = "rayneh"
+
+# A point of contact (responsible person)
+poc = "Joy Pokkamol"
+
+# the start date of the event
+date = "2024-05-24"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "10:00-13:00"
+
+# Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+venues = ["web3hub"]
+
+# # the event venue name
+# venueName = "w3.hub"
+
+# # link to the venue on google maps
+# venueUrl = "https://maps.app.goo.gl/UhWpUeuFDtJ3BTQw6"
+
+# # the event venue address
+# venueAddress = "Möckernstraße 120, 10963 Berlin"
+
+# the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# the max number of attendees of the event
+attendees = 80
+
+# blockchains that the event deals with
+# if it is an interchain event, then leave blank
+# chains = []
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Chainlink", "Ethereum", "Transponder", "CCIP"]
+
+# A logo attachment
+logo = "logo.png"
+
+# a description of the event.
+description = """
+Come hang with the Chainlink community in Berlin at "Chainlink's Morning Mixer: Innovations Over Brunch," part of the exciting Berlin Blockchain Week. Join us for a morning that blends engaging conversations with the latest insights into the blockchain and Web3 spaces.
+
+Featured Guests:
+
+Solange Gueiros, Chainlink Developer Advocacy
+
+Christopher Glissner, Software Engineer, Deutsche Telekom & Chainlink Community Advocate
+
+Explore Chainlink's Ecosystem:
+
+Insights into Chainlink Network: Delve into how Chainlink enhances smart contract capabilities across multiple blockchains, ensuring the security and reliability of data sources.
+
+Latest Product Updates: Be the first to learn about Chainlink's newest product updates and how they are set to transform the landscape of decentralized finance.
+
+Role in Blockchain and Web3: Understand Chainlink's role within the broader blockchain and Web3 ecosystem and how it's driving forward the future of decentralized applications.
+"""
+
+# [cfp]
+# # link to call for particioation
+# link = "https://lu.ma/chainlinkBBW2024"
+
+[registration]
+# type of registration
+#  Possible values:
+#   * tickets
+#   * invites
+#   * signup
+type = "signup"
+
+# price of the ticket
+price = "0 EUR"
+
+# link to the registration or ticket purchase page
+link = "https://lu.ma/chainlinkBBW2024"
+
+# custom action button label
+#button = "Buy tickets!"
+
+# status of registrations
+#  Possible values:
+#   * available
+#   * sold-out
+#   * closed
+status = "available"
+
+[links]
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+web = "https://lu.ma/chainlinkBBW2024"
+
+# twitter account
+twitter = "https://twitter.com/chainlink"
+
+# public matrix channel
+#matrix = "https://matrix.to/#/!example:example.org"
+
+# public telegram group
+telegram = "https://t.me/chainlinkofficial"
+
+# docs
+docs = "https://docs.chain.link/"
+
+# discord
+discord = "https://discord.com/invite/chainlink"
