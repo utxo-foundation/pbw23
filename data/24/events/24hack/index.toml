@@ -1,0 +1,162 @@
+# # the name of your event
+name = "Solana Berlin 24-Hour Hackathon"
+
+# # shortest possible name (without year)
+shortname = "Solana Berlin"
+
+# # type of the event
+# #  available types (you can choose more):
+# #   * meetup
+# #   * conference
+# #   * hackathon
+# #   * expo
+# #   * party
+# #   * other
+types = ["hackathon"]
+
+# # status of the event
+# #  available types:
+# #   * idea
+# #   * planning
+# #   * published
+status = "published"
+
+# # the name of the group organizing the event
+org = "Solana"
+
+# # the github handle of the directly responsible individual for this event
+# # (this person will coordinate with #bbw24 organizers)
+dri = "zCasee"
+
+# # A point of contact (responsible person)
+poc = "Carlo"
+
+# # the start date of the event
+date = "2024-05-21"
+
+# # how many days the event lasts (1 - N)
+days = 2
+
+# # the event times (shows up in the event card)
+times = "00:00-24:00"
+
+# # Link to venues from the Places table - use this OR enter venueName, venueUrl and venueAddress
+# # venues = ["gabriel-loci"]
+
+# # the event venue name
+# venueName = "Example venue"
+
+# # link to the venue on open street maps
+# venueUrl = "https://nominatim.openstreetmap.org/ui/search.html?q=Rungestra%C3%9Fe+20+10179+Berlin"
+
+# # the event venue address
+# venueAddress = "Rungestraße 20, 10179 Berlin"
+
+# # the languages in which the event will take place (you can choose more)
+languages = ["english"]
+
+# # the max number of attendees of the event
+attendees = 65
+
+# # blockchains that the event deals with
+# # if it is an interchain event, then leave blank
+# chains = ["solana"]
+
+# # tags for the event, will show up as labels.
+# # pick 1-4
+tags = ["solana", "hackathon"]
+
+# # A logo attachment
+logo = "logo.png"
+
+# # a description of the event.
+description = """
+Solana Foundation will be hosting an IRL overnight hackathon in Berlin on 21-22nd May during Berlin Blockchain Week.
+
+65 developers of all skill levels will have the opportunity to compete for a prize pool of over $15,000 from the Solana Foundation and our ecosystem projects. This is a unique opportunity to chew glass, learn from some of the best Solana developers in the ecosystem, win prizes and have fun!
+
+AGENDA
+The Hackathon will start at 12:00 on May 21st and continue through the night until May 22nd at 13:00 when teams will present their pitches.
+
+May 21st:
+12:00 | Welcome & Lunch
+13:30 | Speed Networking & Team Building
+14:00 | Hacking Starts
+15:00 - 16:00 | Technical Office Hours
+16:00 -18:00 | Pitch VC Feedback
+19:00 | Dinner
+22:00 - 23:00 | Technical Office Hours
+24:00 - 1:00 | Disco Rave at the Hackathon
+Hacking continues through the nightmorning
+
+May 22nd:
+7:00 | Breakfast
+9:00 - 10:00 | Pitch VC Feedback
+10:00 - 11:00 | Technical Office Hours
+12:00 | Lunch
+13:00 | Pitches begin
+Winner Announcements & Closing
+
+
+WHAT TO EXPECT
+The 24-hour hackathon will be hosted on two floors of the w3 hub in Berlin. The 3rd floor is equipped with adjustable workstations, monitors, and office rooms for technical office hours and VC pitch sessions—everything you need for a productive hackathon! The 4th floor will include food stations, sleeping areas for when you need a late-night rest, and fun activities to let off steam. Lunches, Dinner, and Breakfast will be served at the venue, and snacks, coffee, and Red Bulls will always be in full supply!
+
+Technical office hours: Two veteran Solana Developers will be onsite to help answer questions and their time can be booked through the two days for technical support.
+
+VC pitch feedback sessions: VC's will be available during two time slots where you can get 1:1 direct feedback on your pitches.
+
+Final Pitch: You will have a chance to pitch your project to the panel of judges (5 min pitch per team). Judges will vote to select a winning team in each of 3 categories.
+
+PRIZES & TRACKS:
+$15k+ prize pool split across three tracks:
+
+- Decentralized Finance & Payments
+- Consumer Apps & NFTs
+- Public Goods
+
+Who can apply?
+
+You can apply as an individual or also join with a pre-existing team. Teams & individuals with pre-existing projects are welcome to join, but judges will only review the work that is developed during the 24 hours.
+
+Inexperienced devs are welcome and encouraged to apply, there will be ample technical support and experienced devs to join forces with.
+
+Applications will be approved on a rolling basis and spaces are limited, make sure to apply ASAP.
+"""
+
+[registration]
+# # type of registration
+# #  Possible values:
+# #   * tickets
+# #   * invites
+# #   * signup
+type = "signup"
+
+# # price of the ticket
+# price = "100 EUR"
+
+# # link to the registration or ticket purchase page
+link = "https://lu.ma/berlin-24hour-hackathon"
+
+# # custom action button label
+# #button = "Buy tickets!"
+
+# # status of registrations
+# #  Possible values:
+# #   * available
+# #   * sold-out
+# #   * closed
+status = "available"
+
+# [links]
+# # the website of the event
+# # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# web = "https://example.org/"
+
+# # twitter account
+# twitter = "https://twitter.com/ExampleConf"
+
+# # public telegram group
+# telegram = "https://t.me/example"
+
+# # docs
+# #docs = "https://example.org/docs"
